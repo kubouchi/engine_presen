@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="ja">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section data-markdown="manuscript.md" data-separator="^\n---$" data-separator-vertical="^\n>>>$">
+					<script type="text/template">
+					</script>
+				</section>
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,                 // 右下のコントロールを表示
+				progress: true,                 // 下部の進捗バーを表示
+				slideNumber: true,               // 右下にスライドのページ番号を表示
+				history: true,                   // 各ページをブラウザの履歴に残す
+				overview: false,                 // Escで表示できる「概要」ページを表示不可にする
+				center: true,                   // スライドの垂直方向中央表示をしない（上寄せになる）
+				touch: false,                    // タッチ操作を無効化
+				loop: false,                      // スライドをループさせる
+				rtl: false,                       // 右から左へのスライド
+				fragments: false,                // fragmentsを無効化する
+				autoSlide: 0,                 // 自動スライドをミリ秒単位で設定。デフォルトは0（自動スライドしない）
+				autoSlideStoppable: false ,      // 左下の自動スライド停止用のボタンを非表示にする
+				mouseWheel: true,                // マウスのホイールによるスライドを可能にする
+				transition: 'cube',              // キューブ状の transition でスライドを動作させる
+
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>
