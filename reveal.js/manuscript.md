@@ -22,7 +22,6 @@
 
 ---
 ## どんな種類のライブラリがあるの？
-
 ---
 ### Remark
  https://github.com/gnab/remark
@@ -30,7 +29,7 @@
  <a href="http://remarkjs.com/" target="_blank"><img src="img/img_remark_cap.png"></a>
 
 >>>
-### 長所と短所
+### 特徴
 
 #### 長所
  * Githubでソースが公開されている
@@ -49,13 +48,13 @@ http://lab.hakim.se/reveal-js/#/
  <a href="http://lab.hakim.se/reveal-js/#/" target="_blank"><img src="img/img_reveal_cap.png"></a>
 
 >>>
-### 長所と短所
+### 特徴
 
 #### 長所
  * chromeでPDF化できる
- * スライドを入れ子にして書くことができる
  * 縦方向のスライドを作ることができる
  * 他よりも拡張性が広い
+ * 豊富なスタイルがあらかじめ用意されている
 
 #### 短所
  * markdownで簡略化できるとはいえ、htmlマークアップ量が他より多くなるので、調整の手間が多い
@@ -68,14 +67,43 @@ https://github.com/jdan/cleaver
  <a href="http://jdan.github.io/cleaver/" target="_blank"><img src="img/img_cleaver_cap.png"></a>
 
 >>>
-### 長所と短所
+### 特徴
 
 #### 長所
  * コマンド1行でインストール可能
  * themeでデザインテンプレートを選べる
+
 
 #### 短所
  * node.jsをインストールしていないとそもそもインストールできない
  * ある程度仕様に合わせないといけない部分もある
 
 ---
+## このプレゼンで使用したライブラリは
+
+### Reveal.js
+- - -
+#### -なぜなら-
+ * 縦方向にスライドを作ることが出来るので、段落ごとにまとめやすい
+ * 3次元的な動きなので、「プレゼンで見せること」に一番適していると判断
+
+---
+## 余談
+---
+### Swipe
+ <a href="https://www.swipe.to/" target="_blank"><img src="img/img_swipe_cap.png"></a>
+>>>
+### 特徴
+
+#### 長所
+ * テンプレートやフォントがあらかじめ用意されている
+ * レスポンシブデザインに対応
+ * パワポのようにドラッグ&ドロップでスライドを簡単にインポートできる
+ * 工数が手軽
+
+#### 短所
+ * 用意してあるフォントの種類が少ない
+ * 独自にcssを指定できない為、ライブラリのように細かい調整ができない
+
+---
+##ご清聴、ありがとうございました！
