@@ -43,7 +43,7 @@
 
 ---
 ### Reveal.js
-http://lab.hakim.se/reveal-js/#/
+https://github.com/hakimel/reveal.js/
 
  <a href="http://lab.hakim.se/reveal-js/#/" target="_blank"><img src="img/img_reveal_cap.png"></a>
 
