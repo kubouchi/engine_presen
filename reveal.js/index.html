@@ -24,8 +24,141 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section data-markdown="manuscript.md" data-separator="^\n---$" data-separator-vertical="^\n>>>$">
+				<section data-markdown="" data-separator="^\n---$" data-separator-vertical="^\n>>>$">
 					<script type="text/template">
+					# htmlでプレゼン資料作り！！
+					## ～パワポよりも自由で簡潔に～
+
+					---
+					## 自己紹介
+					- 名前：深野大我
+					- 出身：埼玉県熊谷市
+					- 年齢：24歳
+					- 職種：コーダー
+					- 趣味：サバゲー、ドライブ、動画編集
+
+					---
+					## プレゼン資料作成ライブラリについて
+					</script>
+				</section>
+				<section>
+					<h3>パワポじゃだめなの？</h3>
+					<ul>
+						<li class="fragment">htmlで作るのでブラウザで見れる</li>
+						<li class="fragment">公開&amp;共有しやすい</li>
+						<li class="fragment">markdownを用いるので、htmlの実装も簡単</li>
+						<li class="fragment">cssやjsでデザインや動きの調整も可能</li>
+					</ul>
+				</section>
+				<section data-markdown="" data-separator="^\n---$" data-separator-vertical="^\n>>>$">
+					<script type="text/template">
+## ライブラリの種類
+					</script>
+				</section>
+				<section>
+					<section>
+						<h3>Remark</h3>
+						<a href="https://github.com/gnab/remark" target="blank">https://github.com/gnab/remark</a>
+						<a href="http://remarkjs.com/" target="_blank"><img src="img/img_remark_cap.png" alt=""></a>
+					</section>
+					<section>
+						<h3>特徴</h3>
+						<h4 class="fragment">長所</h4>
+						<ul>
+							<li class="fragment">サーバを立てずにローカルでスライドを表示できる</li>
+							<li class="fragment">シンプルな資料作りに向いている</li>
+						</ul>
+						<h4 class="fragment">短所</h4>
+						<ul>
+							<li class="fragment">1方向にしか作れない</li>
+							<li class="fragment">スタイルはcssを使い初めから自力で調整する必要がある</li>
+						</ul>
+					</section>
+				</section>
+				<section>
+					<section>
+						<h3>Reveal.js</h3>
+						<a href="https://github.com/hakimel/reveal.js/" target="blank">https://github.com/hakimel/reveal.js/</a>
+						<a href="http://lab.hakim.se/reveal-js/#/" target="_blank"><img src="img/img_reveal_cap.png" alt=""></a>
+					</section>
+					<section>
+						<h3>特徴</h3>
+						<h4 class="fragment">長所</h4>
+						<ul>
+							<li class="fragment">chromeでPDF化できる</li>
+							<li class="fragment">2方向のスライドを作ることができる</li>
+							<li class="fragment">豊富なスタイルがあらかじめ用意されている</li>
+							<li class="fragment">markdownとhtmlを1つのhtmlソースで併用できる</li>
+						</ul>
+						<h4 class="fragment">短所</h4>
+						<ul>
+							<li class="fragment">markdownで簡略化できるとはいえ、htmlマークアップ量が他より多くなるので、調整の手間が多い</li>
+							<li class="fragment">図や表、アニメーションを使う場合、htmlとmarkdownを両方記述しなければいけない</li>
+						</ul>
+					</section>
+				</section>
+				<section>
+					<section>
+						<h3>Cleaver</h3>
+						<a href="https://github.com/jdan/cleaver" target="blank">https://github.com/jdan/cleaver</a>
+						<a href="http://jdan.github.io/cleaver/" target="_blank"><img src="img/img_cleaver_cap.png" alt=""></a>
+					</section>
+					<section>
+						<h3>特徴</h3>
+						<h4 class="fragment">長所</h4>
+						<ul>
+							<li class="fragment">コマンド<code>npm instlal cleaver</code>1行でインストール可能</li>
+							<li class="fragment">デザインテンプレートを選べる</li>
+						</ul>
+						<h4 class="fragment">短所</h4>
+						<ul>
+							<li class="fragment">node.jsをインストールしていないとそもそもインストールできない</li>
+							<li class="fragment">mdファイルを編集するたびに、コマンドでhtmlに変換する必要がある</li>
+						</ul>
+					</section>
+				</section>
+				<section data-markdown="" data-separator="^\n---$" data-separator-vertical="^\n>>>$">
+					<script type="text/template">
+## このプレゼンで使用したライブラリは
+					</script>
+				</section>
+				<section>
+					<h3>Reveal.js</h3>
+					<h4 class="fragment">-なぜなら-</h4>
+					<ul>
+						<li class="fragment">2方向にスライドを作ることが出来るので、段落ごとにまとめやすい</li>
+						<li class="fragment">3次元的な動きを実装出来るので、「プレゼンで見せること」に一番適していると判断</li>
+					</ul>
+				</section>
+				<section data-markdown="" data-separator="^\n---$" data-separator-vertical="^\n>>>$">
+					<script type="text/template">
+## 余談
+					</script>
+				</section>
+				<section>
+					<section>
+						<h3>Swipe</h3>
+						<a href="https://www.swipe.to/" target="_blank"><img src="img/img_swipe_cap.png" alt=""></a>
+					</section>
+					<section>
+						<h3>特徴</h3>
+						<h4 class="fragment">長所</h4>
+						<ul>
+							<li class="fragment">テンプレートやフォントがあらかじめ用意されている</li>
+							<li class="fragment">レスポンシブデザインに対応</li>
+							<li class="fragment">パワポのようにドラッグ&amp;ドロップでスライドを簡単にインポートできる</li>
+							<li class="fragment">工数が手軽</li>
+						</ul>
+						<h4 class="fragment">短所</h4>
+						<ul>
+							<li class="fragment">用意してあるフォントの種類が少ない</li>
+							<li class="fragment">独自にcssを指定できない為、ライブラリのように細かい調整ができない</li>
+						</ul>
+					</section>
+				</section>
+				<section data-markdown="" data-separator="^\n---$" data-separator-vertical="^\n>>>$">
+					<script type="text/template">
+## ご清聴、ありがとうございました！
 					</script>
 				</section>
 			</div>
@@ -46,7 +179,7 @@
 				touch: false,                    // タッチ操作を無効化
 				loop: false,                      // スライドをループさせる
 				rtl: false,                       // 右から左へのスライド
-				fragments: false,                // fragmentsを無効化する
+				fragments: true,                // fragmentsを無効化する
 				autoSlide: 0,                 // 自動スライドをミリ秒単位で設定。デフォルトは0（自動スライドしない）
 				autoSlideStoppable: false ,      // 左下の自動スライド停止用のボタンを非表示にする
 				mouseWheel: true,                // マウスのホイールによるスライドを可能にする

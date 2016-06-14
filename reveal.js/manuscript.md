@@ -25,7 +25,7 @@
 ### Remark
  https://github.com/gnab/remark
 
- <a href="http://remarkjs.com/" target="_blank"><img src="img/img_remark_cap.png"></a>
+ <a href="http://remarkjs.com/" target="_blank"><img src="img/img_remark_cap.png" alt=""></a>
 
 >>>
 ### 特徴
@@ -42,7 +42,7 @@
 ### Reveal.js
 https://github.com/hakimel/reveal.js/
 
- <a href="http://lab.hakim.se/reveal-js/#/" target="_blank"><img src="img/img_reveal_cap.png"></a>
+ <a href="http://lab.hakim.se/reveal-js/#/" target="_blank"><img src="img/img_reveal_cap.png" alt=""></a>
 
 >>>
 ### 特徴
@@ -51,16 +51,17 @@ https://github.com/hakimel/reveal.js/
  * chromeでPDF化できる
  * 2方向のスライドを作ることができる
  * 豊富なスタイルがあらかじめ用意されている
+ * markdownとhtmlを1つのhtmlソースで併用できる
 
 #### 短所
  * markdownで簡略化できるとはいえ、htmlマークアップ量が他より多くなるので、調整の手間が多い
- * 図や表、アニメーションを使うにはあまり向いていない
+ * 図や表、アニメーションを使う場合、htmlとmarkdownを両方記述しなければいけない
 
 ---
 ### Cleaver
 https://github.com/jdan/cleaver
 
- <a href="http://jdan.github.io/cleaver/" target="_blank"><img src="img/img_cleaver_cap.png"></a>
+ <a href="http://jdan.github.io/cleaver/" target="_blank"><img src="img/img_cleaver_cap.png" alt=""></a>
 
 >>>
 ### 特徴
@@ -71,7 +72,6 @@ https://github.com/jdan/cleaver
 
 #### 短所
  * node.jsをインストールしていないとそもそもインストールできない
- * ある程度仕様に合わせないといけない部分もある
  * mdファイルを編集するたびに、コマンドでhtmlに変換する必要がある
 
 ---
@@ -87,7 +87,7 @@ https://github.com/jdan/cleaver
 ## 余談
 ---
 ### Swipe
- <a href="https://www.swipe.to/" target="_blank"><img src="img/img_swipe_cap.png"></a>
+ <a href="https://www.swipe.to/" target="_blank"><img src="img/img_swipe_cap.png" alt=""></a>
 >>>
 ### 特徴
 
