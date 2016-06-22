@@ -65,6 +65,8 @@ html:-moz-full-screen-ancestor {
   .reveal .slides section .fragment.visible {
     opacity: 1;
     visibility: visible; }
+    .reveal .slides section .fragment.visible p {
+    font-size: 30px; }
 
 .reveal .slides section .fragment.grow {
   opacity: 1;
